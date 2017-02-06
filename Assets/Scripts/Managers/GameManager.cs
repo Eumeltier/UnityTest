@@ -119,7 +119,7 @@ namespace TANKS
             EnableTankControl ();
 
             // Clear the text from the screen.
-            m_MessageText.text = string.Empty;
+            m_MessageText.text = "";
 
             // While there is not one tank left...
             while (!OneTankLeft())
